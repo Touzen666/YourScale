@@ -25,12 +25,12 @@ import { ProfilComponent } from './profil/profil.component';
     PrzepisyComponent,
     WarzenieComponent,
     ListaComponent,
-    GlownaComponent,
+    // GlownaComponent,
     NavbarComponent,
     FooterComponent,
     CeleComponent,
     RejestracjaComponent,
-    ProfilComponent
+    ProfilComponent,
   ],
   imports: [
     BrowserModule,

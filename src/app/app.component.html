@@ -1,29 +1,10 @@
-<!--Ten komponent jest głównym komponentem -->
-
-
-<!-- Wsytrzykiwane komponenty -->
-
-
-<!-- Komponent paska nawigacji -->
 <app-navbar></app-navbar>
 
-<!-- Strona główna -->
-<!-- <app-glowna></app-glowna> -->
+<div class="contener page-content">
+  <div class="row justify-content-center">
+    <!-- <router-outlet> jest podmieniany na obecny komponent routera (np strona Glowna) -->
+    <router-outlet></router-outlet>
+  </div>
+</div>
 
-<!-- Rejestracja użytkownika -->
-<!-- <app-rejestracja></!-->
-<router-outlet></router-outlet>
-<!-- Lodówka -->
-<!-- <app-lodowka></app-lodowka> -->
-
-<!-- Lista zakupów -->
-<!-- <app-lista></app-lista> -->
-
-<!-- Przepisy -->
-<!-- <app-przepisy></app-przepisy> -->
-
-<!-- Warzenie produktu -->
-<!-- <app-warzenie></app-warzenie> -->
-
-<!-- Komponent stopki na strnie czyli cookie i copyright -->
 <app-footer></app-footer>
