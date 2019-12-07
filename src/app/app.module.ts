@@ -4,18 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LodowkaComponent } from './lodowka/lodowka.component';
-import { PrzepisyComponent } from './przepisy/przepisy.component';
-import { WarzenieComponent } from './warzenie/warzenie.component';
+import { LodowkaComponent } from './Lodowka/lodowka.component';
+import { PrzepisyComponent } from './Przepisy/przepisy.component';
+import { WarzenieComponent } from './Warzenie/warzenie.component';
 import { ListaComponent } from './Lista/lista.component';
 import { GlownaComponent } from './Glowna/glowna.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
-import { CeleComponent } from './cele/cele.component';
-import { RejestracjaComponent } from './rejestracja/rejestracja.component';
-import { ProfilComponent } from './profil/profil.component';
-
-
+import { NavbarComponent } from './Navbar/navbar.component';
+import { FooterComponent } from './Footer/footer.component';
+import { CeleComponent } from './Cele/cele.component';
+import { RejestracjaComponent } from './Rejestracja/rejestracja.component';
+import { ProfilComponent } from './Profil/profil.component';
 
 
 @NgModule({
@@ -29,7 +27,7 @@ import { ProfilComponent } from './profil/profil.component';
     NavbarComponent,
     FooterComponent,
     CeleComponent,
-    RejestracjaComponent,
+    // RejestracjaComponent,
     ProfilComponent,
   ],
   imports: [
