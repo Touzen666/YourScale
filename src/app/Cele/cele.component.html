@@ -1,1 +1,94 @@
-<p>cele works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p>Ile aktualnie warzysz?</p>
+      <div class="slidecontainer col-7">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <p>Jak wysoki/wysoka jesteś?</p>
+      <div class="slidecontainer col-7">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <p>Ile masz lat?</p>
+      <div class="slidecontainer col-7">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <p>Jaką masz posturę ciała?</p>
+      <div class="custom-select" style="width:290px;">
+        <select>
+          <option value="0">Powiedz nam jaka masz posturę:</option>
+          <option value="1">Chudy</option>
+          <option value="2">Średnio wysportowany</option>
+          <option value="3">Wysportowany</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <p>Ile chciałbyś/chciała byś warzyć?</p>
+      <div class="slidecontainer col-7">
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          class="slider"
+          id="myRange"
+        />
+      </div>
+    </div>
+
+    <div class="col-12">
+      <p>Jaką posturę ciała chciał byś uzyskać z naszą pomocą?</p>
+      <div class="custom-select" style="width:290px;">
+        <select>
+          <option value="0">Wybierz posturę:</option>
+          <option value="1">Chcę schudnąć</option>
+          <option value="2">Chcę być średnio wysportowany</option>
+          <option value="3">Chcę być wysportowany</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script> -->

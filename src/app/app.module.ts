@@ -14,6 +14,7 @@ import { FooterComponent } from './Footer/footer.component';
 import { CeleComponent } from './Cele/cele.component';
 import { RejestracjaComponent } from './Rejestracja/rejestracja.component';
 import { ProfilComponent } from './Profil/profil.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ProfilComponent } from './Profil/profil.component';
     FooterComponent,
     CeleComponent,
     // RejestracjaComponent,
-    ProfilComponent,
+    // ProfilComponent,
+    // KontaktComponent,
   ],
   imports: [
     BrowserModule,

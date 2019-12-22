@@ -1,0 +1,22 @@
+.text-muted {
+  margin: 10px;
+}
+
+#copyright {
+  margin-top: 400px;
+}
+
+.body {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#email {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.page-content {
+  padding: 3rem;
+}
+/*# sourceMappingURL=app.component.css.map */

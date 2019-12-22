@@ -2,24 +2,28 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RejestracjaComponent } from './rejestracja.component';
 
-describe('RejestracjaComponent', () => {
+describe('RejestracjaComponent', () =>
+{
   let component: RejestracjaComponent;
   let fixture: ComponentFixture<RejestracjaComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(async(() =>
+  {
     TestBed.configureTestingModule({
-      declarations: [ RejestracjaComponent ]
+      declarations: [RejestracjaComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
-  beforeEach(() => {
+  beforeEach(() =>
+  {
     fixture = TestBed.createComponent(RejestracjaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create', () =>
+  {
     expect(component).toBeTruthy();
   });
 });

@@ -1,113 +1,140 @@
-<div class="contener">
-
-    <div class="row">
-        <div class="col-12">
-            <div class="card text-center">
-                <div class="card-header">
-                    YourScale
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Zamów wagę</a>
-                </div>
-                <div class="card-footer text-muted"></div>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="card attribute filter-panel" data-type="select" data-id="1">
+        <div class="card-header">
+          <i class="fa fa-angle-down   pull-right"></i>
+          <span class="card-title">Wprowadz swój dzisiejszy posiłek</span>
         </div>
+        <div class="card-body" style="padding: 0px; padding-top: 15px">
+          <ul class="filter-ul">
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Śniadanie</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck1"
+                  value="1"
+                />
+                <label class="custom-control-label " for="customCheck1"></label>
+              </div>
+            </li>
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">II Śniadanie</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck2"
+                  value="2"
+                />
+                <label class="custom-control-label " for="customCheck2"></label>
+              </div>
+            </li>
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Lunch</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck3"
+                  value="3"
+                />
+                <label class="custom-control-label " for="customCheck3"></label>
+              </div>
+            </li>
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Obiad</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck4"
+                  value="4"
+                />
+                <label class="custom-control-label " for="customCheck4"></label>
+              </div>
+            </li>
 
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Przekąska</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck5"
+                  value="5"
+                />
+                <label class="custom-control-label " for="customCheck5"></label>
+              </div>
+            </li>
+
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Kolacja</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck6"
+                  value="6"
+                />
+                <label class="custom-control-label " for="customCheck6"></label>
+              </div>
+            </li>
+
+            <li>
+              <div
+                class="custom-control custom-checkbox"
+                style="direction: rtl ; text-align: right"
+              >
+                <p style="text-align: left;">Trening</p>
+                <input
+                  type="checkbox"
+                  class="custom-control-input filter-checkbox "
+                  id="customCheck7"
+                  value="7"
+                />
+                <label class="custom-control-label " for="customCheck7"></label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12">
+        <nav class="navbar navbar-light" style=" background-color:#A2E2A;">
+          <div class="form-check text-right">
+            <button type="button" class="btn btn-outline-success">
+              Zapisz
+            </button>
+            <button
+              type="submit"
+              class="btn btn-outline-success"
+              [routerLink]="['/cele']"
+            >
+              Ustal swój cel
+            </button>
+          </div>
+        </nav>
+      </div>
     </div>
-
-    <div class="row">
-
-
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="../assets/bartek.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Bartosz Ochędowski</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Link do GitHub</a>
-                    <a href="#" class="card-link">Link do CV</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-
-            <div class="card">
-                <img class="card-img-top" src="../assets/bartek.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Magdalena Kwiatek</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Link do GitHub</a>
-                    <a href="#" class="card-link">Link do CV</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-
-            <div class="card">
-                <img class="card-img-top" src="../assets/bartek.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Grzegorz Pelczar</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Link do GitHub</a>
-                    <a href="#" class="card-link">Link do CV</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="../assets/bartek.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Piotr Maślanka</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's
-                        content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                    <li class="list-group-item">-Jakies skille</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Link do GitHub</a>
-                    <a href="#" class="card-link">Link do CV</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
+  </div>
 </div>
