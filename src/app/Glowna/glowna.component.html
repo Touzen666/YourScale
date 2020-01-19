@@ -1,139 +1,130 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <div class="card attribute filter-panel" data-type="select" data-id="1">
-        <div class="card-header">
-          <i class="fa fa-angle-down   pull-right"></i>
-          <span class="card-title">Wprowadz swój dzisiejszy posiłek</span>
+      <div class="card border-success mb-3 mt-3 shadow-lg">
+        <div class="card-header text-success" style="font-weight:bold;">
+          Wprowadz swoje dzisiejsze posiłki
         </div>
-        <div class="card-body" style="padding: 0px; padding-top: 15px">
-          <ul class="filter-ul">
+        <div class="card-body text-success">
+          <div class="text-success mb-2 p-3">
+            Wpisz produkty z których składał się twój posiłek np ziemniaki 150g.
+            Produkty dodane w odpowiednim oknie zostaną automatycznie przypisane
+            do dania. Dania oraz listę produktów z których sie składały możesz
+            znaleźć w zakładce "Twoje konto" a potem edytować w razie potrzeby.
+          </div>
+          <ul>
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Śniadanie</p>
+              <!-- <div
+                  class="custom-control custom-checkbox"
+                  style="direction: rtl ; text-align: right"
+                >
+                  <p style="text-align: left;">Śniadanie</p>
+                  <input
+                    type="checkbox"
+                    class="custom-control-input filter-checkbox "
+                    id="customCheck1"
+                    value="1"
+                  />
+                  <label class="custom-control-label " for="customCheck1"></label>
+                </div> -->
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck1"
-                  value="1"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput1"
+                  placeholder="Śniadanie"
                 />
-                <label class="custom-control-label " for="customCheck1"></label>
               </div>
             </li>
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">II Śniadanie</p>
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck2"
-                  value="2"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput2"
+                  placeholder="II Śniadanie"
                 />
-                <label class="custom-control-label " for="customCheck2"></label>
               </div>
             </li>
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Lunch</p>
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck3"
-                  value="3"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput3"
+                  placeholder="Lunch"
                 />
-                <label class="custom-control-label " for="customCheck3"></label>
               </div>
             </li>
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Obiad</p>
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck4"
-                  value="4"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput4"
+                  placeholder="Obiad"
                 />
-                <label class="custom-control-label " for="customCheck4"></label>
-              </div>
-            </li>
-
-            <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Przekąska</p>
-                <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck5"
-                  value="5"
-                />
-                <label class="custom-control-label " for="customCheck5"></label>
               </div>
             </li>
 
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Kolacja</p>
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck6"
-                  value="6"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput5"
+                  placeholder="Przekąska"
                 />
-                <label class="custom-control-label " for="customCheck6"></label>
               </div>
             </li>
 
             <li>
-              <div
-                class="custom-control custom-checkbox"
-                style="direction: rtl ; text-align: right"
-              >
-                <p style="text-align: left;">Trening</p>
+              <div class="form-group">
                 <input
-                  type="checkbox"
-                  class="custom-control-input filter-checkbox "
-                  id="customCheck7"
-                  value="7"
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput6"
+                  placeholder="Kolacja"
                 />
-                <label class="custom-control-label " for="customCheck7"></label>
+              </div>
+            </li>
+
+            <li>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="FormControlInput7"
+                  placeholder="Trening"
+                />
               </div>
             </li>
           </ul>
         </div>
       </div>
-      <div class="col-12">
-        <nav class="navbar navbar-light" style=" background-color:#A2E2A;">
-          <div class="form-check text-right">
-            <button type="button" class="btn btn-outline-success">
+      <div class="card border-success mb-3 shadow-lg">
+        <div class="d-flex w-100 justify-content-between">
+          <div class="card-body text-success ">
+            <button
+              type="button"
+              class="btn btn-outline-success"
+              [routerLink]="['/profil']"
+            >
               Zapisz
             </button>
             <button
               type="submit"
-              class="btn btn-outline-success"
+              class="btn btn-outline-success ml-2"
               [routerLink]="['/cele']"
             >
               Ustal swój cel
             </button>
+            <small class="m-2" style="float: right;"
+              >Jeśli jeszcze nie ustaliłeś celu jaki chcesz osiągnąć z naszą
+              pomocą zrób to teraz i kliknij przycisk "Ustal swój cel".
+            </small>
           </div>
-        </nav>
+        </div>
       </div>
     </div>
   </div>

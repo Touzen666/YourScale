@@ -1,61 +1,129 @@
-<form>
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validationDefault01">Login</label>
-            <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="validationDefault02">Hasło</label>
-            <input type="password" class="form-control" id="validationDefault02" value="Otto" required>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="validationDefaultUsername">Nazwa Użytkownika</label>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                </div>
-                <input type="text" class="form-control" id="validationDefaultUsername"
-                    aria-describedby="inputGroupPrepend2" required>
-            </div>
-        </div>
-    </div>
-    <div class="form-row">
-        <div class="col-md-3 mb-3">
-            <label for="validationDefault04">Wielkość Miasta</label>
-            <select class="custom-select" id="validationDefault04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>od 50 000 do 99 999</option>
-                <option>od 25 000 do 49 999</option>
-                <option>od 10 000 do 24 999</option>
-                <option>od 5 000 do 9 999</option>
-                <option>od 2 500 do 4 999</option>
-                <option>od 1 000 do 2 499</option>
-                <option>poniżej 1 000.</option>
-            </select>
-        </div>
+<div class="container">
+  <br />
+  <p class="text-center ">
+    Wiecej na temat polityki prywatności znajdziesz
+    <a href=""> tutaj</a>
+    <!-- chwilowo link na glowna strone -->
+  </p>
+  <hr />
 
-        <div class="col-md-3 mb-3">
-            <label for="validationDefault04">Płeć</label>
-            <select class="custom-select" id="validationDefault04" required>
-                <option selected disabled value="">Choose...</option>
-                <option>Męższczyzna</option>
-                <option>Kobieta</option>
-            </select>
+  <div class="row justify-content-center ">
+    <div class="col-md-6">
+      <div class="card shadow-lg">
+        <header class="card-header ">
+          <a href="" class="float-right btn btn-outline-success mt-1"
+            >Zaloguj</a
+          >
+          <h4 class="card-title mt-2">Zarejstruj się</h4>
+        </header>
+        <article class="card-body">
+          <form>
+            <div class="form-row">
+              <div class="col form-group">
+                <label>Login </label>
+                <input type="text" class="form-control" placeholder="" />
+              </div>
+              <!-- form-group end.// -->
+              <div class="col form-group">
+                <label>Imie</label>
+                <input type="text" class="form-control" placeholder=" " />
+              </div>
+              <!-- form-group end.// -->
+            </div>
+            <!-- form-row end.// -->
+            <div class="form-group">
+              <label>Adres email</label>
+              <input type="email" class="form-control" placeholder="" />
+              <small class="form-text text-muted"
+                >Nigdy nie udostępnimy Twojego adresu e-mail nikomu
+                innemu.</small
+              >
+            </div>
+            <!-- form-group end.// -->
+            <div class="form-group">
+              <label class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  value="option1"
+                />
+                <span class="form-check-label"> Mężczyzna </span>
+              </label>
+              <label class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="gender"
+                  value="option2"
+                />
+                <span class="form-check-label"> Kobieta</span>
+              </label>
+            </div>
+            <!-- form-group end.// -->
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label>Miasto</label>
+                <input type="text" class="form-control" />
+              </div>
+              <!-- form-group end.// -->
+              <div class="form-group col-md-6">
+                <label>Kraj</label>
+                <select id="inputState" class="form-control">
+                  <option> Choose...</option>
+                  <option>Polska</option>
+                  <option>Uzbekistan</option>
+                  <option>Rosja</option>
+                  <option selected="">Stany zjednoczone</option>
+                  <option>Indie</option>
+                  <option>Afganistan</option>
+                </select>
+              </div>
+              <!-- form-group end.// -->
+            </div>
+            <!-- form-row.// -->
+            <div class="form-group">
+              <label>Utwóż hasło</label>
+              <input class="form-control" type="password" />
+            </div>
+            <!-- form-group end.// -->
+            <div class="form-group">
+              <button type="submit" class="btn btn-success btn-block">
+                Zarejestruj się
+              </button>
+            </div>
+            <!-- form-group// -->
+            <small class="text-muted"
+              >Klikając przycisk „Zarejestruj się”, potwierdzasz, że akceptujesz
+              nasze
+              <br />
+              warunki użytkowania i polityka prywatności.</small
+            >
+          </form>
+        </article>
+        <!-- card-body end .// -->
+        <div class="border-top card-body text-center">
+          Posiadasz już konto? <a href="">Zaloguj</a>
         </div>
-        <div class="col-md-3 mb-3">
-            <label for="validationDefault05">Zip</label>
-            <input type="text" class="form-control" id="validationDefault05" required>
-        </div>
+      </div>
+      <!-- card.// -->
     </div>
-    <div class="form-group">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-            <label class="form-check-label" for="invalidCheck2">
-                Agree to terms and conditions
-            </label>
-        </div>
-    </div>
-    <div class="text-right">
-        <button class="btn btn-secondary" type="submit">Wyślij formularz</button>
-    </div>
-</form>
+    <!-- col.//-->
+  </div>
+  <!-- row.//-->
+  <hr />
+</div>
+<!--container end.//-->
+
+<br />
+
+<div class="container">
+  <div class="row">
+    <img
+      src="../assets/register.jpg"
+      alt="Card image cap"
+      style="width:100%;"
+    />
+  </div>
+  <br /><br />
+</div>

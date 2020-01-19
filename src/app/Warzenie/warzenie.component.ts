@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-warzenie',
-  templateUrl: './warzenie.component.html',
-  styleUrls: ['./warzenie.component.scss']
+  selector: "app-warzenie",
+  templateUrl: "./warzenie.component.html",
+  styleUrls: ["./warzenie.component.scss"]
 })
 export class WarzenieComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
