@@ -1,3 +1,31 @@
+<div class="container">
+  <div class="row mt-3">
+    <div class="btn-group">
+      <button
+        type="button"
+        class=" btn btn-outline-success "
+        [routerLink]="['/profil']"
+      >
+        Profil
+      </button>
+      <button
+        type="button"
+        class=" btn btn-outline-success "
+        [routerLink]="['/konto']"
+      >
+        Twoje Konto
+      </button>
+      <button
+        type="button"
+        class=" btn btn-outline-success "
+        [routerLink]="['/ustawienia']"
+      >
+        Ustawienia
+      </button>
+    </div>
+  </div>
+  <br />
+</div>
 
 <div class="container">
   <br />
@@ -18,9 +46,11 @@
           <h3 class="card-title mt-2">
             Tu możesz sprawdzić zapisane przez siebie spożyte posiłki
           </h3>
-          <a href="" class=" btn btn-outline-success m-1">Pokaż posiłki</a>
-          <a href="" class=" btn btn-outline-success m-1">Modyfikuj</a>
-          <a href="" class=" btn btn-outline-success m-1">Dodaj</a>
+          <a class=" btn btn-outline-success m-1" [routerLink]="['/konto']"
+            >Pokaż posiłki</a
+          >
+          <a class=" btn btn-outline-success m-1">Modyfikuj</a>
+          <a class=" btn btn-outline-success m-1">Dodaj</a>
 
           <div class="accordion " id="accordionExample">
             <div class="card ">
@@ -145,6 +175,158 @@
                   </li>
                   <li class="list-group-item list-group-item-success">
                     Sałata 6g
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0 text-center">
+                  <button
+                    class="btn btn-link text-success "
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Obiad
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseFour"
+                class="collapse show btn-success"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <li class="list-group-item list-group-item-success">
+                    Ziemniaki 100g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Surówka z marchwi 45g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Filet z kurczaka 100g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Masło 2g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Kompot z jagód 0.330l
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0 text-center">
+                  <button
+                    class="btn btn-link text-success "
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Przekąska
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseFive"
+                class="collapse show btn-success"
+                aria-labelledby="headingFive"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <li class="list-group-item list-group-item-success">
+                    Jabłko 1 sz.
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Gruszka 1 sz.
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card-header" id="headingSix">
+                <h2 class="mb-0 text-center">
+                  <button
+                    class="btn btn-link text-success "
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                  >
+                    Trening
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseSix"
+                class="collapse show btn-success"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <li class="list-group-item list-group-item-success">
+                    Kasza jęczmienna 150g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Filet z indyka 45g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Mieszanka warzyw chińska 50g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Mąka 5g
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="card ">
+              <div class="card-header" id="headingSeven">
+                <h2 class="mb-0 text-center">
+                  <button
+                    class="btn btn-link text-success "
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                  >
+                    Kolacja
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseSeven"
+                class="collapse show btn-success"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <li class="list-group-item list-group-item-success">
+                    Ser żółty 10g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Chleb 25g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Szynka 5g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Masło 2g
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                    Ogórek 15g
                   </li>
                 </div>
               </div>

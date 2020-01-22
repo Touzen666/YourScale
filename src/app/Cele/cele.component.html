@@ -1,87 +1,3 @@
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <p>Ile aktualnie warzysz?</p>
-      <div class="slidecontainer col-7">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-      </div>
-    </div>
-
-    <div class="col-12">
-      <p>Jak wysoki/wysoka jesteś?</p>
-      <div class="slidecontainer col-7">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-      </div>
-    </div>
-
-    <div class="col-12">
-      <p>Ile masz lat?</p>
-      <div class="slidecontainer col-7">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-      </div>
-    </div>
-
-    <div class="col-12">
-      <p>Jaką masz posturę ciała?</p>
-      <div class="custom-select" style="width:290px;">
-        <select>
-          <option value="0">Powiedz nam jaka masz posturę:</option>
-          <option value="1">Chudy</option>
-          <option value="2">Średnio wysportowany</option>
-          <option value="3">Wysportowany</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <p>Ile chciałbyś/chciała byś warzyć?</p>
-      <div class="slidecontainer col-7">
-        <input
-          type="range"
-          min="1"
-          max="100"
-          value="50"
-          class="slider"
-          id="myRange"
-        />
-      </div>
-    </div>
-
-    <div class="col-12">
-      <p>Jaką posturę ciała chciał byś uzyskać z naszą pomocą?</p>
-      <div class="custom-select" style="width:290px;">
-        <select>
-          <option value="0">Wybierz posturę:</option>
-          <option value="1">Chcę schudnąć</option>
-          <option value="2">Chcę być średnio wysportowany</option>
-          <option value="3">Chcę być wysportowany</option>
-        </select>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- <script>
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
@@ -92,3 +8,127 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 }
 </script> -->
+
+<div class="container">
+  <br />
+  <hr />
+
+  <div class="row justify-content-center ">
+    <div class="col-md-6">
+      <div class="card shadow-lg">
+        <header class="card-header ">
+          <a href="" class="float-right btn btn-outline-success mt-1">Zapisz</a>
+          <h4 class="card-title mt-2">Ustal swój cel</h4>
+        </header>
+        <article class="card-body">
+          <form>
+            <div class="row">
+              <div class="col-6 col-md-6 shadow-lg mt-1 pb-5 mt-5">
+                <div>
+                  <h6>Ile aktualnie warzysz?</h6>
+                  <div class="range-slider">
+                    <input
+                      class="range-slider__range"
+                      type="range"
+                      value="200"
+                      min="0"
+                      max="500"
+                    />
+                    <span class="range-slider__value">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 shadow-lg mt-1 pb-5 mt-5">
+                <div>
+                  <h6>Jak wysoki/wysoka jesteś?</h6>
+                  <div class="range-slider">
+                    <input
+                      class="range-slider__range"
+                      type="range"
+                      value="250"
+                      min="0"
+                      max="500"
+                    />
+                    <span class="range-slider__value">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 shadow-lg mt-5 pb-4">
+                <div>
+                  <h6 style="padding-bottom: 1.1rem;">Ile masz lat?</h6>
+                  <div class="range-slider">
+                    <input
+                      class="range-slider__range"
+                      type="range"
+                      value="100"
+                      min="0"
+                      max="500"
+                    />
+                    <span class="range-slider__value">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 shadow-lg mt-5 pb-4">
+                <div>
+                  <h6>Jaka wagę pragniesz utrzymywać?</h6>
+                  <div class="range-slider">
+                    <input
+                      class="range-slider__range"
+                      type="range"
+                      value="150"
+                      min="0"
+                      max="500"
+                    />
+                    <span class="range-slider__value">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 shadow-lg mt-5 pb-4 mb-5">
+                <h6>Jaką masz posturę ciała?</h6>
+                <div style="padding-top: 1.1rem;">
+                  <div class="form-group">
+                    <select class="selectpicker form-control">
+                      <option value="0">Powiedz nam jaka masz posturę:</option>
+                      <option value="1">Chudy</option>
+                      <option value="2">Średnio wysportowany</option>
+                      <option value="3">Wysportowany</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 shadow-lg mt-5 pb-4 mb-5">
+                <h6>Jaką posturę ciała chciał byś uzyskać z naszą pomocą?</h6>
+                <div class="">
+                  <div class="form-group">
+                    <select class="selectpicker form-control">
+                      <option value="0">Wybierz posturę:</option>
+                      <option value="1">Chcę schudnąć</option>
+                      <option value="2">Chcę być wysportowany</option>
+                      <option value="3">Chcę być Kulturystą</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </article>
+      </div>
+      <!-- card.// -->
+    </div>
+    <!-- col.//-->
+  </div>
+</div>
+<!--container end.//-->
+
+<br />
+
+<div class="container">
+  <div class="row">
+    <img
+      src="../assets/register.jpg"
+      alt="Card image cap"
+      style="width:100%;"
+    />
+  </div>
+  <br /><br />
+</div>

@@ -17,7 +17,6 @@ import { ProfilComponent } from "./Profil/profil.component";
 import { KontaktComponent } from "./kontakt/kontakt.component";
 import { KontoComponent } from "./konto/konto.component";
 import { UstawieniaComponent } from "./ustawienia/ustawienia.component";
-import { NavbarKontaComponent } from './navbar-konta/navbar-konta.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,8 @@ import { NavbarKontaComponent } from './navbar-konta/navbar-konta.component';
     // GlownaComponent,
     NavbarComponent,
     FooterComponent,
-    CeleComponent,
-    NavbarKontaComponent
+    CeleComponent
+
     // UstawieniaComponent,
     // KontoComponent
     // RejestracjaComponent,

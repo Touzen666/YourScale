@@ -2,7 +2,7 @@
 
 How to run applications step by step:
 
-1. install node.js provide a link to the page
+1. install node.js to https://nodejs.org/en/
 2. Run PoweShell as administrator: set-executionpolicy remotesigned
 3. Open power shell and type: npm install -g @ angular / cli
 4. @ angular-devkit / build-angular
