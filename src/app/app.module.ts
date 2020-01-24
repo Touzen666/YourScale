@@ -17,6 +17,14 @@ import { ProfilComponent } from "./Profil/profil.component";
 import { KontaktComponent } from "./kontakt/kontakt.component";
 import { KontoComponent } from "./konto/konto.component";
 import { UstawieniaComponent } from "./ustawienia/ustawienia.component";
+import { DodajPrzepisComponent } from "./dodaj-przepis/dodaj-przepis.component";
+import { DodajListeComponent } from "./dodaj-liste/dodaj-liste.component";
+import { ZaplanujDieteComponent } from "./zaplanuj-diete/zaplanuj-diete.component";
+import { SubskrybujComponent } from "./subskrybuj/subskrybuj.component";
+import { PolitykaComponent } from "./polityka/polityka.component";
+import { CookiesComponent } from "./cookies/cookies.component";
+import { EmailBoxComponent } from './email-box/email-box.component';
+import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +36,15 @@ import { UstawieniaComponent } from "./ustawienia/ustawienia.component";
     // GlownaComponent,
     NavbarComponent,
     FooterComponent,
-    CeleComponent
+    CeleComponent,
+    DodajPrzepisComponent,
+    DodajListeComponent,
+    ZaplanujDieteComponent,
+    SubskrybujComponent,
+    PolitykaComponent,
+    CookiesComponent,
+    EmailBoxComponent,
+    ListaUzytkownikaComponent
 
     // UstawieniaComponent,
     // KontoComponent

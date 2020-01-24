@@ -31,7 +31,7 @@
   <br />
   <p class="text-center ">
     Wiecej na temat polityki prywatności znajdziesz
-    <a href=""> tutaj</a>
+    <a [routerLink]="['/politykaPrywatnosci']"> tutaj</a>
     <!-- chwilowo link na glowna strone -->
   </p>
   <hr />
@@ -49,8 +49,18 @@
           <a class=" btn btn-outline-success m-1" [routerLink]="['/konto']"
             >Pokaż posiłki</a
           >
-          <a class=" btn btn-outline-success m-1">Modyfikuj</a>
-          <a class=" btn btn-outline-success m-1">Dodaj</a>
+          <a class=" btn btn-outline-success m-1" [routerLink]="['/konto']"
+            >Modyfikuj</a
+          >
+          <a class=" btn btn-outline-success m-1" [routerLink]="['']">Dodaj</a>
+          <a class=" btn btn-outline-success m-1" [routerLink]="['/konto']"
+            >Twoje cele</a
+          >
+          <a
+            class=" btn btn-outline-success m-1"
+            [routerLink]="['/listaUzytkownika']"
+            >Twoja lista zakupów</a
+          >
 
           <div class="accordion " id="accordionExample">
             <div class="card ">
@@ -342,7 +352,11 @@
               poniżej.
             </h6>
             <div class="form-group">
-              <button type="submit" class="btn btn-success btn-block">
+              <button
+                type="submit"
+                class="btn btn-success btn-block"
+                [routerLink]="['/subskrybuj']"
+              >
                 Subskrybuj
               </button>
             </div>
@@ -356,7 +370,8 @@
         </article>
         <!-- card-body end .// -->
         <div class="border-top card-body text-center">
-          Nie posiadasz jeszcze konta premium? <a href="">Subskrybuj</a>
+          Nie posiadasz jeszcze konta premium?
+          <a [routerLink]="['/subskrybuj']">Subskrybuj</a>
         </div>
       </div>
       <!-- card.// -->

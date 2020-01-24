@@ -1,31 +1,52 @@
-<!-- stopka na stronie -->
-<div class="container">
-    <div class="row">
+<div class="contener">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark  dropup">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="col-sm-4">
-            <div class="card bg-dark">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Pliki cookies</h5>
+    <!-- navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Szczegółowe informacje
+          </a>
 
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-dark">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title">Polityka prawności</h5>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/politykaPrywatnosci']">
+              Polityka prawności</a
+            >
 
+            <a class="dropdown-item" [routerLink]="['/plikiCookies']">
+              Pliki cookies</a
+            >
+            <a class="dropdown-item" [routerLink]="['/kontakt']">Kontakt</a>
+          </div>
+        </li>
+      </ul>
+      <!-- Pasek szukania -->
+      <form class="form-inline my-2 my-lg-0">
+        <i class="fab fa-facebook-square mr-5" style="color: #0049E6;"></i>
 
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-dark">
-                <div class="card-body text-secondary">
-                    <h5 class="card-title"><a [routerLink]="['/kontakt']">Kontakt</a></h5>
-                </div>
-            </div>
-        </div>
-
+        <i class="fab fa-twitter-square mr-5" style="color: #0A95FF;"></i>
+        <i class="fab fa-instagram" style="color: #FF2986;"></i>
+      </form>
     </div>
+  </nav>
 </div>
