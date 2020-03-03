@@ -1,22 +1,31 @@
-.text-muted {
-  margin: 10px;
+.container {
+  align-items: center;
+  margin-bottom: -50px;
 }
 
-#copyright {
-  margin-top: 400px;
+@media screen and (max-width: 1500px) {
+  .container {
+    margin-left: 200px;
+
+    overflow: visible;
+  }
 }
 
-.body {
-  margin-left: 400px;
-  margin-right: 400px;
+@media screen and (max-width: 400px) {
+  .container {
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    justify-content: center;
+  }
 }
-
-#email {
-  width: 25px;
-  margin-right: 8px;
-}
-
-.page-content {
-  padding: 3rem;
-}
-/*# sourceMappingURL=app.component.css.map */

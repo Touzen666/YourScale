@@ -19,6 +19,7 @@ import { PolitykaComponent } from "./polityka/polityka.component";
 import { CookiesComponent } from "./cookies/cookies.component";
 import { EmailBoxComponent } from "./email-box/email-box.component";
 import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika.component';
+import { ZalogujComponent } from './zaloguj/zaloguj.component';
 
 const routes: Routes = [
   { path: "", component: GlownaComponent },
@@ -39,7 +40,8 @@ const routes: Routes = [
   { path: "politykaPrywatnosci", component: PolitykaComponent },
   { path: "plikiCookies", component: CookiesComponent },
   { path: "emailBox", component: EmailBoxComponent },
-  { path: "listaUzytkownika", component: ListaUzytkownikaComponent }
+  { path: "listaUzytkownika", component: ListaUzytkownikaComponent },
+  { path: "zaloguj", component: ZalogujComponent }
 ];
 
 @NgModule({
@@ -54,4 +56,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

@@ -10,6 +10,8 @@ How to run applications step by step:
 6. ng test
 7. ng serve
 8. http: // localhost: 4200 /
+9. npm install --save bootswatch
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 

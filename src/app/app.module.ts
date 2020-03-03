@@ -25,6 +25,7 @@ import { PolitykaComponent } from "./polityka/polityka.component";
 import { CookiesComponent } from "./cookies/cookies.component";
 import { EmailBoxComponent } from './email-box/email-box.component';
 import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika.component';
+import { ZalogujComponent } from './zaloguj/zaloguj.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika
     PolitykaComponent,
     CookiesComponent,
     EmailBoxComponent,
-    ListaUzytkownikaComponent
+    ListaUzytkownikaComponent,
+    ZalogujComponent
 
     // UstawieniaComponent,
     // KontoComponent

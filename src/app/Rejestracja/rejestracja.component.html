@@ -11,9 +11,7 @@
     <div class="col-md-6">
       <div class="card shadow-lg">
         <header class="card-header ">
-          <a href="" class="float-right btn btn-outline-success mt-1"
-            >Zaloguj</a
-          >
+          <a href="" class="float-right btn btn-outline-success mt-1">Zaloguj</a>
           <h4 class="card-title mt-2">Zarejstruj się</h4>
         </header>
         <article class="card-body">
@@ -34,29 +32,17 @@
             <div class="form-group">
               <label>Adres email</label>
               <input type="email" class="form-control" placeholder="" />
-              <small class="form-text text-muted"
-                >Nigdy nie udostępnimy Twojego adresu e-mail nikomu
-                innemu.</small
-              >
+              <small class="form-text text-muted">Nigdy nie udostępnimy Twojego adresu e-mail nikomu
+                innemu.</small>
             </div>
             <!-- form-group end.// -->
             <div class="form-group">
               <label class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="gender"
-                  value="option1"
-                />
+                <input class="form-check-input" type="radio" name="gender" value="option1" />
                 <span class="form-check-label"> Mężczyzna </span>
               </label>
               <label class="form-check form-check-inline">
-                <input
-                  class="form-check-input"
-                  type="radio"
-                  name="gender"
-                  value="option2"
-                />
+                <input class="form-check-input" type="radio" name="gender" value="option2" />
                 <span class="form-check-label"> Kobieta</span>
               </label>
             </div>
@@ -97,17 +83,15 @@
               </button>
             </div>
             <!-- form-group// -->
-            <small class="text-muted"
-              >Klikając przycisk „Zarejestruj się”, potwierdzasz, że akceptujesz
+            <small class="text-muted">Klikając przycisk „Zarejestruj się”, potwierdzasz, że akceptujesz
               nasze
               <br />
-              warunki użytkowania i polityka prywatności.</small
-            >
+              warunki użytkowania i polityka prywatności.</small>
           </form>
         </article>
         <!-- card-body end .// -->
         <div class="border-top card-body text-center">
-          Posiadasz już konto? <a href="">Zaloguj</a>
+          Posiadasz już konto? <a [routerLink]="['/zaloguj']">Zaloguj się</a>
         </div>
       </div>
       <!-- card.// -->
@@ -123,11 +107,7 @@
 
 <div class="container">
   <div class="row">
-    <img
-      src="../assets/register.jpg"
-      alt="Card image cap"
-      style="width:100%;"
-    />
+    <img src="../assets/register.jpg" alt="Card image cap" style="width:100%;" />
   </div>
   <br /><br />
 </div>
