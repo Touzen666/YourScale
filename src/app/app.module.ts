@@ -26,6 +26,7 @@ import { CookiesComponent } from "./cookies/cookies.component";
 import { EmailBoxComponent } from './email-box/email-box.component';
 import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika.component';
 import { ZalogujComponent } from './zaloguj/zaloguj.component';
+import { SpolecznoscComponent } from './spolecznosc/spolecznosc.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ZalogujComponent } from './zaloguj/zaloguj.component';
     CookiesComponent,
     EmailBoxComponent,
     ListaUzytkownikaComponent,
-    ZalogujComponent
+    ZalogujComponent,
+    SpolecznoscComponent
 
     // UstawieniaComponent,
     // KontoComponent

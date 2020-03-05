@@ -20,6 +20,7 @@ import { CookiesComponent } from "./cookies/cookies.component";
 import { EmailBoxComponent } from "./email-box/email-box.component";
 import { ListaUzytkownikaComponent } from './lista-uzytkownika/lista-uzytkownika.component';
 import { ZalogujComponent } from './zaloguj/zaloguj.component';
+import { SpolecznoscComponent } from './spolecznosc/spolecznosc.component';
 
 const routes: Routes = [
   { path: "", component: GlownaComponent },
@@ -41,7 +42,8 @@ const routes: Routes = [
   { path: "plikiCookies", component: CookiesComponent },
   { path: "emailBox", component: EmailBoxComponent },
   { path: "listaUzytkownika", component: ListaUzytkownikaComponent },
-  { path: "zaloguj", component: ZalogujComponent }
+  { path: "zaloguj", component: ZalogujComponent },
+  { path: "spolecznosc", component: SpolecznoscComponent },
 ];
 
 @NgModule({

@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-glowna',
   templateUrl: './glowna.component.html',
-  styleUrls: ['./glowna.component.scss']
+  styleUrls: ['./glowna.component.scss',
+    './glowna.component.css']
 })
 export class GlownaComponent implements OnInit {
 
