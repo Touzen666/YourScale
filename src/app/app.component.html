@@ -1,19 +1,50 @@
 <div class="page-container">
-  <app-navbar></app-navbar>
+  <div class="slider">
+
+    <figure>
+      <div class="slide">
+
+        <ul class="cb-slideshow">
+          <li><span>Image 01</span>
+
+          </li>
+          <li><span>Image 02</span>
+
+          </li>
+          <li><span>Image 03</span>
+
+          </li>
+          <li><span>Image 04</span>
+
+          </li>
+          <li><span>Image 05</span>
+
+          </li>
+          <li><span>Image 06</span>
+
+          </li>
+        </ul>
+      </div>
+    </figure>
+  </div>
   <div class="content-wrap">
-    <div class="container">
-      <div class="row">
+    <app-navbar></app-navbar>
+    <div class="content-wrap">
+      <div class="container">
+        <div class="row">
 
-        <div class="content">
+          <div class="content">
 
-          <router-outlet></router-outlet>
-          <div class="bottom">
-            <app-footer></app-footer>
+            <router-outlet></router-outlet>
+            <div class="bottom">
+              <app-footer></app-footer>
+            </div>
+
           </div>
-
         </div>
       </div>
     </div>
   </div>
+
 
 </div>
